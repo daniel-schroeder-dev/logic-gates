@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import NandGate from './components/NandGate/NandGate';
+import NotGate from './components/NotGate/NotGate';
 import GateTrack from './components/GateTrack/GateTrack';
 import Input from './components/Input/Input';
 
@@ -18,6 +19,7 @@ function App() {
     <div className="app">
       <GateTrack>
         <NandGate inputValues={inputValues} />
+        <NotGate />
       </GateTrack>
       <form className="app__form">
         <Input label="A" onChange={handleInputChange} value={inputValues.A} />
