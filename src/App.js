@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Line from './components/Line/Line';
 import LineContainer from './components/LineContainer/LineContainer';
@@ -10,6 +10,13 @@ import Input from './components/Input/Input';
 import './App.css';
 
 function App() {
+
+  const [inputValues, setInputValues] = useState({ a: false, b: false });
+
+  const handleInputChange = (inputLabel, value) => {
+    setInputValues(prevInputValues => ({ ...prevInputValues, [inputLabel]: value }));
+  };
+
   return (
     <div className="app">
       <GateTrack>
@@ -25,8 +32,8 @@ function App() {
         </GateContainer>
       </GateTrack>
       <form className="app__form">
-        <Input label="A" />
-        <Input label="B" />
+        <Input label="A" onChange={handleInputChange} />
+        <Input label="B" onChange={handleInputChange} />
       </form>
     </div>
   );
