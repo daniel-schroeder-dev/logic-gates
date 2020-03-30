@@ -19,7 +19,7 @@ function App() {
     <div className="app">
       <GateTrack>
         <NandGate inputValues={inputValues} />
-        <NotGate />
+        <NotGate inputValue={true} />
       </GateTrack>
       <form className="app__form">
         <Input label="A" onChange={handleInputChange} value={inputValues.A} />
