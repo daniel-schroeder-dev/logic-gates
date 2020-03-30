@@ -11,7 +11,7 @@ function App() {
   const [inputValues, setInputValues] = useState({ A: false, B: false });
 
   const handleInputChange = (inputLabel, value) => {
-    setInputValues(prevInputValues => ({ ...prevInputValues, [inputLabel]: !!value }));
+    setInputValues(prevInputValues => ({ ...prevInputValues, [inputLabel]: value }));
   };
 
   return (
