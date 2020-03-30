@@ -14,13 +14,13 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <main className="app">
       <GateTrack inputValues={inputValues} />
       <form className="app__form">
         <Input label="A" onChange={handleInputChange} value={inputValues.A} />
         <Input label="B" onChange={handleInputChange} value={inputValues.B} />
       </form>
-    </div>
+    </main>
   );
 }
 
