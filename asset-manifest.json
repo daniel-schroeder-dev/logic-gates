@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/logic-gates/static/css/main.54b3da10.chunk.css",
+    "main.js": "/logic-gates/static/js/main.1f2173eb.chunk.js",
+    "main.js.map": "/logic-gates/static/js/main.1f2173eb.chunk.js.map",
+    "runtime-main.js": "/logic-gates/static/js/runtime-main.16ebd1d9.js",
+    "runtime-main.js.map": "/logic-gates/static/js/runtime-main.16ebd1d9.js.map",
+    "static/js/2.87055d9d.chunk.js": "/logic-gates/static/js/2.87055d9d.chunk.js",
+    "static/js/2.87055d9d.chunk.js.map": "/logic-gates/static/js/2.87055d9d.chunk.js.map",
+    "index.html": "/logic-gates/index.html",
+    "precache-manifest.ba1d85de33e472278da9cadd8789e4a5.js": "/logic-gates/precache-manifest.ba1d85de33e472278da9cadd8789e4a5.js",
+    "service-worker.js": "/logic-gates/service-worker.js",
+    "static/css/main.54b3da10.chunk.css.map": "/logic-gates/static/css/main.54b3da10.chunk.css.map",
+    "static/js/2.87055d9d.chunk.js.LICENSE.txt": "/logic-gates/static/js/2.87055d9d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16ebd1d9.js",
+    "static/js/2.87055d9d.chunk.js",
+    "static/css/main.54b3da10.chunk.css",
+    "static/js/main.1f2173eb.chunk.js"
+  ]
+}
