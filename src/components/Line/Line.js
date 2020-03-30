@@ -7,7 +7,7 @@ function Line(props) {
 
   const style = {
     top: props.top + 'px',
-    left: props.isOutput ? '10px' : '0',
+    left: props.isOutput ? '12px' : '0',
     width: props.isOutput ? '88px' : '100px',
     borderColor: props.isOn ? '#ffe600' : 'black',
   };

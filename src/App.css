@@ -1,6 +1,6 @@
 .app {
   padding: 48px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   display: flex;
   flex-direction: column;
   position: relative;
@@ -9,6 +9,6 @@
 .app__form {
   padding: 12px;
   margin-top: 12px;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   width: 200px;
 }

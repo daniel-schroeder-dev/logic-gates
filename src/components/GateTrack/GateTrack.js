@@ -10,13 +10,13 @@ function GateTrack(props) {
 
   const [nandOutput, setNandOutput] = useState(false);
 
-  const getOuput = output => {
-    setNandOutput(output);
+  const getNandOuput = nandOutput => {
+    setNandOutput(nandOutput);
   };
 
   return (
     <div className="gate-track">
-      <NandGate inputValues={props.inputValues} returnOutput={getOuput} />
+      <NandGate inputValues={props.inputValues} returnOutput={getNandOuput} />
       <NotGate inputValue={nandOutput} />
     </div>
   );

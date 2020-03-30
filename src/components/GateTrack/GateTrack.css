@@ -1,5 +1,7 @@
 .gate-track {
   display: flex;
-  border: 1px solid blue;
+  border: 1px solid #ababab;
+  box-shadow: 0px 0px 3px 1px #222;
   background-color: #c0c0c0;
+  padding: 24px;
 }
