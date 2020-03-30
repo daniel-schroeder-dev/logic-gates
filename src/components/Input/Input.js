@@ -9,14 +9,19 @@ function Input(props) {
 
   return (
     <div className="input">
-      <label className="input__label" htmlFor={id}>{props.label}:</label>
-      <input className="input__element" type="number" id={id} name={id} min="0" max="1" />
+      <span>{props.label}:</span>
+      <input className="input__element" type="radio" id="on" name={props.label}   onChange={e => props.onChange(props.label, true)} value={props.value}/>
+      <label className="input__label" htmlFor={id}>On</label>
+      <input className="input__element" type="radio" id="off" name={props.label}   onChange={e => props.onChange(props.label, false)} value={props.value}/>
+      <label className="input__label" htmlFor={id}>Off</label>
     </div>
   );
 }
 
 Input.propTypes = {
   label: PropTypes.string.isRequired,
+  onChange: PropTypes.func.isRequired,
+  value: PropTypes.bool.isRequired,
 };
 
 export default Input;

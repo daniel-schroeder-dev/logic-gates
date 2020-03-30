@@ -11,10 +11,10 @@ import './App.css';
 
 function App() {
 
-  const [inputValues, setInputValues] = useState({ a: false, b: false });
+  const [inputValues, setInputValues] = useState({ A: true, B: true });
 
   const handleInputChange = (inputLabel, value) => {
-    setInputValues(prevInputValues => ({ ...prevInputValues, [inputLabel]: value }));
+    setInputValues(prevInputValues => ({ ...prevInputValues, [inputLabel]: !!value }));
   };
 
   return (
@@ -32,8 +32,8 @@ function App() {
         </GateContainer>
       </GateTrack>
       <form className="app__form">
-        <Input label="A" onChange={handleInputChange} />
-        <Input label="B" onChange={handleInputChange} />
+        <Input label="A" onChange={handleInputChange} value={inputValues.A} />
+        <Input label="B" onChange={handleInputChange} value={inputValues.B} />
       </form>
     </div>
   );
