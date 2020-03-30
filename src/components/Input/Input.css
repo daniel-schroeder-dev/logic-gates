@@ -2,12 +2,23 @@
   margin-bottom: 12px;
 }
 
+.input {
+  /*border: 1px solid black;*/
+  /*width: 150px;*/
+}
+
+.input__wrapper {
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 12px;
+  padding: 8px;
+}
+
 .input__element {
-  width: 32px;
+  width: 24px;
 }
 
 .input__label {
   margin-right: 8px;
-  width: 15px;
   display: inline-block;
 }
