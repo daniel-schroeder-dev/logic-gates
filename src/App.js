@@ -12,7 +12,8 @@ function App() {
     <div className="app">
       <GateContainer>
         <LineContainer>
-          <Line />
+          <Line y={25} />
+          <Line y={75} />
         </LineContainer>
         <NandGate />
       </GateContainer>

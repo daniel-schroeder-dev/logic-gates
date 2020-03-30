@@ -7,7 +7,7 @@ function Line(props) {
 
   const setY = () => {
     return {
-      top: props.y,
+      top: props.y + 'px',
     };
   };
 
