@@ -12,9 +12,7 @@ function NandGate(props) {
   const [output, setOutput] = useState(false);
 
   useEffect(() => {
-    if (props.inputValues.A !== undefined && props.inputValues.B !== undefined) {
-      setOutput(!(props.inputValues.A && props.inputValues.B));
-    }
+    setOutput(!(props.inputValues.A && props.inputValues.B));
   }, [props.inputValues.A, props.inputValues.B]);
 
   return (
