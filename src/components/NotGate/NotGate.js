@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
 import PropTypes from 'prop-types';
 
 import NotGateElement from '../NotGateElement/NotGateElement';
@@ -9,7 +10,11 @@ import './NotGate.css';
 
 function NotGate(props) {
 
-  
+  const [output, setOutput] = useState(false);
+
+  useEffect(() => {
+    setOutput(!props.inputValue);
+  }, [props.inputValue]);
 
   return (
     <div className="not-gate">
@@ -19,7 +24,7 @@ function NotGate(props) {
         </LineContainer>
         <NotGateElement />
         <LineContainer>
-          <Line top={49} isOutput={true} isOn={false} />
+          <Line top={49} isOutput={true} isOn={output} />
         </LineContainer>
       </div>
     </div>
