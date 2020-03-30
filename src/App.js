@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 
-import Line from './components/Line/Line';
-import LineContainer from './components/LineContainer/LineContainer';
-import NandGateElement from './components/NandGateElement/NandGateElement';
 import NandGate from './components/NandGate/NandGate';
 import GateTrack from './components/GateTrack/GateTrack';
 import Input from './components/Input/Input';
@@ -20,16 +17,7 @@ function App() {
   return (
     <div className="app">
       <GateTrack>
-        <NandGate>
-          <LineContainer>
-            <Line top={25} isOn={inputValues.A} />
-            <Line top={75} isOn={inputValues.B} />
-          </LineContainer>
-          <NandGateElement />
-          <LineContainer>
-            <Line top={50} isOutput={true} isOn={false} />
-          </LineContainer>
-        </NandGate>
+        <NandGate inputValues={inputValues} />
       </GateTrack>
       <form className="app__form">
         <Input label="A" onChange={handleInputChange} value={inputValues.A} />
