@@ -5,3 +5,9 @@
   flex-direction: column;
   position: relative;
 }
+
+.app__form {
+  padding: 12px;
+  margin-top: 12px;
+  border: 1px solid green;
+}

@@ -24,8 +24,9 @@ function App() {
           </LineContainer>
         </GateContainer>
       </GateTrack>
-      <form>
+      <form className="app__form">
         <Input label="A" />
+        <Input label="B" />
       </form>
     </div>
   );

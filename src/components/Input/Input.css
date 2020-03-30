@@ -1,0 +1,13 @@
+.input:first-child {
+  margin-bottom: 12px;
+}
+
+.input__element {
+  width: 32px;
+}
+
+.input__label {
+  margin-right: 8px;
+  width: 15px;
+  display: inline-block;
+}

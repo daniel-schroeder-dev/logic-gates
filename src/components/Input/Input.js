@@ -9,8 +9,8 @@ function Input(props) {
 
   return (
     <div className="input">
-      <label htmlFor={id}>{props.label}</label>
-      <input type="number" id={id} name={id} min="0" max="1" />
+      <label className="input__label" htmlFor={id}>{props.label}:</label>
+      <input className="input__element" type="number" id={id} name={id} min="0" max="1" />
     </div>
   );
 }
