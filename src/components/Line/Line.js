@@ -7,7 +7,8 @@ function Line(props) {
 
   const setY = () => {
     return {
-      top: props.y + 'px',
+      top: props.top + 'px',
+      left: props.isOutput ? '10px' : '0',
     };
   };
 
@@ -17,7 +18,8 @@ function Line(props) {
 }
 
 Line.propTypes = {
-  y: PropTypes.number.isRequired,
+  top: PropTypes.number.isRequired,
+  left: PropTypes.bool, 
 };
 
 export default Line;

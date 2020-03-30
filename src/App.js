@@ -12,10 +12,13 @@ function App() {
     <div className="app">
       <GateContainer>
         <LineContainer>
-          <Line y={25} />
-          <Line y={75} />
+          <Line top={25} />
+          <Line top={75} />
         </LineContainer>
         <NandGate />
+        <LineContainer>
+          <Line top={50} isOutput={true} />
+        </LineContainer>
       </GateContainer>
     </div>
   );
