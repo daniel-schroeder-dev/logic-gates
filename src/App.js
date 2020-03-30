@@ -5,6 +5,7 @@ import LineContainer from './components/LineContainer/LineContainer';
 import NandGate from './components/NandGate/NandGate';
 import GateContainer from './components/GateContainer/GateContainer';
 import GateTrack from './components/GateTrack/GateTrack';
+import Input from './components/Input/Input';
 
 import './App.css';
 
@@ -24,10 +25,7 @@ function App() {
         </GateContainer>
       </GateTrack>
       <form>
-        <div>
-          <label htmlFor="inputA">A</label>
-          <input type="number" id="inputA" name="inputA" min="0" max="1" />
-        </div>
+        <Input label="A" />
       </form>
     </div>
   );
