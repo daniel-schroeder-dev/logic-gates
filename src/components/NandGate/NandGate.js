@@ -15,6 +15,10 @@ function NandGate(props) {
     setOutput(!(props.inputValues.A && props.inputValues.B));
   }, [props.inputValues.A, props.inputValues.B]);
 
+  useEffect(() => {
+    props.returnOutput(output);
+  }, [props, output]);
+
   return (
     <div className="nand-gate">
       <LineContainer>
@@ -31,6 +35,7 @@ function NandGate(props) {
 
 NandGate.propTypes = {
   inputValues: PropTypes.object.isRequired,
+  returnOutput: PropTypes.func.isRequired,
 };
 
 export default NandGate;
