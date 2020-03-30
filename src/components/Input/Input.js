@@ -11,9 +11,9 @@ function Input(props) {
     <div className="input">
       <span>{props.label}:</span>
       <div className="input__wrapper">
-        <input className="input__element" type="radio" id="on" name={props.label} onChange={e => props.onChange(props.label, true)} value={props.value}/>
+        <input className="input__element" type="radio" id="on" name={props.label} checked={props.value} onChange={e => props.onChange(props.label, true)} value={true} />
         <label className="input__label" htmlFor={id}>On</label>
-        <input className="input__element" type="radio" id="off" name={props.label}   onChange={e => props.onChange(props.label, false)} value={props.value}/>
+        <input className="input__element" type="radio" id="off" name={props.label} checked={!props.value}  onChange={e => props.onChange(props.label, false)} value={false} />
         <label className="input__label" htmlFor={id}>Off</label>
       </div>
     </div>
