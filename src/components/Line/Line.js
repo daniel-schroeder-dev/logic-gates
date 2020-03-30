@@ -9,6 +9,7 @@ function Line(props) {
     return {
       top: props.top + 'px',
       left: props.isOutput ? '10px' : '0',
+      width: props.isOutput ? '88px' : '100px',
     };
   };
 
