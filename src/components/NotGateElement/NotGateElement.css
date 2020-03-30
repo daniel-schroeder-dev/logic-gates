@@ -30,7 +30,6 @@
   border-radius: 100%;
   border: 1px solid black;
   position: absolute;
-  /*top: calc(50px - 6px);*/
-  top: -5px;
-  left: 100%;
+  top: -6px;
+  /*left: 100%;*/
 }

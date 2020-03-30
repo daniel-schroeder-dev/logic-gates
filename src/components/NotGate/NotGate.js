@@ -15,7 +15,7 @@ function NotGate(props) {
         </LineContainer>
         <NotGateElement />
         <LineContainer>
-          <Line top={50} isOutput={true} isOn={false} />
+          <Line top={49} isOutput={true} isOn={false} />
         </LineContainer>
       </div>
     </div>
