@@ -1,5 +1,6 @@
 import React from 'react';
 
+import NotGateElement from '../NotGateElement/NotGateElement';
 import Line from '../Line/Line';
 import LineContainer from '../LineContainer/LineContainer';
 
@@ -12,7 +13,7 @@ function NotGate(props) {
         <LineContainer>
           <Line top={50} isOn={false} />
         </LineContainer>
-        {/*<NandGateElement />*/}
+        <NotGateElement />
         <LineContainer>
           <Line top={50} isOutput={true} isOn={false} />
         </LineContainer>

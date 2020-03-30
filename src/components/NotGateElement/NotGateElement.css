@@ -1,0 +1,36 @@
+.not-gate-element {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.triangle-right {
+  width: 0; 
+  height: 0; 
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 86.6px solid black;
+}
+
+.inner-triangle {
+  position: relative;
+  top: -46px;
+  right: 83.5px;;
+  width: 0;
+  height: 0;
+  border-top: 46px solid transparent;
+  border-bottom: 46px solid transparent;
+  border-left: 79.672px solid #c0c0c0;
+}
+
+.not-gate-element::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid black;
+  position: absolute;
+  /*top: calc(50px - 6px);*/
+  top: -5px;
+  left: 100%;
+}
