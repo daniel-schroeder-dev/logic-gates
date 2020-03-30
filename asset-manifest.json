@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/logic-gates/static/css/main.a85d39a9.chunk.css",
-    "main.js": "/logic-gates/static/js/main.44eb44a3.chunk.js",
-    "main.js.map": "/logic-gates/static/js/main.44eb44a3.chunk.js.map",
+    "main.css": "/logic-gates/static/css/main.bdb660c8.chunk.css",
+    "main.js": "/logic-gates/static/js/main.c4bdf66a.chunk.js",
+    "main.js.map": "/logic-gates/static/js/main.c4bdf66a.chunk.js.map",
     "runtime-main.js": "/logic-gates/static/js/runtime-main.16ebd1d9.js",
     "runtime-main.js.map": "/logic-gates/static/js/runtime-main.16ebd1d9.js.map",
     "static/js/2.60feea00.chunk.js": "/logic-gates/static/js/2.60feea00.chunk.js",
     "static/js/2.60feea00.chunk.js.map": "/logic-gates/static/js/2.60feea00.chunk.js.map",
     "index.html": "/logic-gates/index.html",
-    "precache-manifest.d7836c75f3432b7cd528d6c9c9ef4026.js": "/logic-gates/precache-manifest.d7836c75f3432b7cd528d6c9c9ef4026.js",
+    "precache-manifest.b2f2e06d0122f25893b014f206f0153f.js": "/logic-gates/precache-manifest.b2f2e06d0122f25893b014f206f0153f.js",
     "service-worker.js": "/logic-gates/service-worker.js",
-    "static/css/main.a85d39a9.chunk.css.map": "/logic-gates/static/css/main.a85d39a9.chunk.css.map",
+    "static/css/main.bdb660c8.chunk.css.map": "/logic-gates/static/css/main.bdb660c8.chunk.css.map",
     "static/js/2.60feea00.chunk.js.LICENSE.txt": "/logic-gates/static/js/2.60feea00.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.16ebd1d9.js",
     "static/js/2.60feea00.chunk.js",
-    "static/css/main.a85d39a9.chunk.css",
-    "static/js/main.44eb44a3.chunk.js"
+    "static/css/main.bdb660c8.chunk.css",
+    "static/js/main.c4bdf66a.chunk.js"
   ]
 }

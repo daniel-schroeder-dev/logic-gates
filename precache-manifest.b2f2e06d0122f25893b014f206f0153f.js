@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "719702ebff6e23e1352c935d7961d921",
+    "revision": "585938058c691aa4a0d803b0eacc918a",
     "url": "/logic-gates/index.html"
   },
   {
-    "revision": "b811ecfd70b9f1e4a7b2",
-    "url": "/logic-gates/static/css/main.a85d39a9.chunk.css"
+    "revision": "dbc5d2627c43ebf5a560",
+    "url": "/logic-gates/static/css/main.bdb660c8.chunk.css"
   },
   {
     "revision": "07467e6b4b10a915cccc",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/logic-gates/static/js/2.60feea00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b811ecfd70b9f1e4a7b2",
-    "url": "/logic-gates/static/js/main.44eb44a3.chunk.js"
+    "revision": "dbc5d2627c43ebf5a560",
+    "url": "/logic-gates/static/js/main.c4bdf66a.chunk.js"
   },
   {
     "revision": "fe3bb1e06ca424983878",
