@@ -25,7 +25,7 @@ function App() {
       </GateTrack>
       <form>
         <div>
-          <label for="inputA">A</label>
+          <label htmlFor="inputA">A</label>
           <input type="number" id="inputA" name="inputA" min="0" max="1" />
         </div>
       </form>
