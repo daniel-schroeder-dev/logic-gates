@@ -5,22 +5,22 @@ import './Line.css';
 
 function Line(props) {
 
-  const setY = () => {
-    return {
-      top: props.top + 'px',
-      left: props.isOutput ? '10px' : '0',
-      width: props.isOutput ? '88px' : '100px',
-    };
+  const style = {
+    top: props.top + 'px',
+    left: props.isOutput ? '10px' : '0',
+    width: props.isOutput ? '88px' : '100px',
+    borderColor: props.isOn ? '#ffe600' : 'black',
   };
 
   return (
-    <div className="line" style={setY()}></div>
+    <div className="line" style={style}></div>
   );
 }
 
 Line.propTypes = {
   top: PropTypes.number.isRequired,
   left: PropTypes.bool, 
+  isOn: PropTypes.bool.isRequired,
 };
 
 export default Line;

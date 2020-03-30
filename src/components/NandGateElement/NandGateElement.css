@@ -1,4 +1,4 @@
-.nand-gate {
+.nand-gate-element {
   width: 100px;
   height: 100px;
   border: solid 1px black;
@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.nand-gate::after {
+.nand-gate-element::after {
   content: '';
   width: 10px;
   height: 10px;

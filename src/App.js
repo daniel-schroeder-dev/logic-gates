@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import Line from './components/Line/Line';
 import LineContainer from './components/LineContainer/LineContainer';
-import NandGate from './components/NandGate/NandGate';
+import NandGateElement from './components/NandGateElement/NandGateElement';
 import GateContainer from './components/GateContainer/GateContainer';
 import GateTrack from './components/GateTrack/GateTrack';
 import Input from './components/Input/Input';
@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
 
-  const [inputValues, setInputValues] = useState({ A: true, B: true });
+  const [inputValues, setInputValues] = useState({ A: false, B: false });
 
   const handleInputChange = (inputLabel, value) => {
     setInputValues(prevInputValues => ({ ...prevInputValues, [inputLabel]: !!value }));
@@ -22,12 +22,12 @@ function App() {
       <GateTrack>
         <GateContainer>
           <LineContainer>
-            <Line top={25} />
-            <Line top={75} />
+            <Line top={25} isOn={inputValues.A} />
+            <Line top={75} isOn={inputValues.B} />
           </LineContainer>
-          <NandGate />
+          <NandGateElement />
           <LineContainer>
-            <Line top={50} isOutput={true} />
+            <Line top={50} isOutput={true} isOn={false} />
           </LineContainer>
         </GateContainer>
       </GateTrack>
