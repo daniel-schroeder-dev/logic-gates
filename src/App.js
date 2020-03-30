@@ -20,6 +20,12 @@ function App() {
           <Line top={50} isOutput={true} />
         </LineContainer>
       </GateContainer>
+      <form>
+        <div>
+          <label for="inputA">A</label>
+          <input type="number" id="inputA" name="inputA" min="0" max="1" />
+        </div>
+      </form>
     </div>
   );
 }
